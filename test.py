@@ -5,6 +5,7 @@ from hypothesis import given
 import hypothesis.strategies as st
 import Exercices as ex
 
+
 class Exercice_1_Test_case(unittest.TestCase):
 
     @given(st.integers(), st.integers())
